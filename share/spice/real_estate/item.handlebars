@@ -1,0 +1,22 @@
+<div class="tile  tile--c  tile--loc">
+    <!-- Front of tile -->
+    <div class="tile--c__main  tile--loc__main">
+        <div class="tile__media">
+            {{#if displayImage}}
+                <div class="tile__media__wrapper">
+                    <img src="" data-src="{{imageProxy displayImage}}" alt="{{displayAddress}}" class="tile__media__img  js-lazyload" />
+                </div>
+            {{else}}
+                <span class="ddgsi tile__media__no-img">@</span>
+            {{/if}}
+        </div>
+        <div class="tile__num">{{num}}</div>
+        <div class="tile__body">
+            <h6 class="tile__title"><a href="{{url}}">{{ellipsis displayAddress 33}}</a></h6>
+            <div class="tile__subtitle"><a href="{{url}}">{{beds}}, {{baths}}, {{sqft}}</a></div>
+            <div class="tile__foot">
+                <div class="tile__price"><a href="{{url}}">{{displayPrice}}</a></div>
+            </div>
+        </div>
+    </div>
+</div>

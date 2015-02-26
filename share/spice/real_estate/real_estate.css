@@ -1,0 +1,25 @@
+
+#zci-real_estate .tile--loc {
+    width: 13.5em;
+    margin-bottom: 0.5em;
+}
+
+#zci-real_estate .tile__media {
+    width: 12.5em;
+}
+
+#zci-real_estate .tile__media__img {
+    max-width: 100%;
+}
+
+#zci-real_estate .tile__subtitle {
+    font-size: .95em;
+}
+
+#zci-real_estate .tile__price {
+    font-size: 115%;
+}
+
+#zci-real_estate a {
+    color: #333;
+}
